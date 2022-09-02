@@ -54,20 +54,20 @@ namespace Operaciones_con_arreglos_desordenados
             }
             return suma / Tam;
         }
-        public static double getStudent()
+        public static int getStudent()
         {
             double mejor = 0;
             foreach(double B in NF)
             {
                 if(mejor < B) { mejor = B; }
             }
-            return mejor;
+            return Convert.ToInt32(mejor);
         }
         public static string getNombre(double b)
         {
             int index;
             index = Array.IndexOf(NF, b );
-            return Carnet[index] + Nombres[index];
+            return Carnet[index] + " - " + Nombres[index];
         }
         public static void agregarEstudiante(string a, string b)
         {

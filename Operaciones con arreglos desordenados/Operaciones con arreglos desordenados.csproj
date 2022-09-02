@@ -52,7 +52,20 @@
     <Compile Include="AgregarEjercicio1.Designer.cs">
       <DependentUpon>AgregarEjercicio1.cs</DependentUpon>
     </Compile>
+    <Compile Include="AgregarEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AgregarEmpleados.Designer.cs">
+      <DependentUpon>AgregarEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="DATOS.cs" />
+    <Compile Include="DatosEmpleados.cs" />
+    <Compile Include="editarSalario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editarSalario.Designer.cs">
+      <DependentUpon>editarSalario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejercicio1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +77,12 @@
     </Compile>
     <Compile Include="Ejercicio2.Designer.cs">
       <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eliminar.Designer.cs">
+      <DependentUpon>Eliminar.cs</DependentUpon>
     </Compile>
     <Compile Include="eliminarEjercicio1.cs">
       <SubType>Form</SubType>
@@ -94,8 +113,20 @@
     <EmbeddedResource Include="AgregarEjercicio1.resx">
       <DependentUpon>AgregarEjercicio1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AgregarEmpleados.resx">
+      <DependentUpon>AgregarEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editarSalario.resx">
+      <DependentUpon>editarSalario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejercicio1.resx">
       <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eliminar.resx">
+      <DependentUpon>Eliminar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="eliminarEjercicio1.resx">
       <DependentUpon>eliminarEjercicio1.cs</DependentUpon>
